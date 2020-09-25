@@ -7,17 +7,26 @@
 
 // SETTINGS
 // Contient les variables sur les polices, les définitions de couleurs, les définitions de  grandeurs,   etc.
+@import "settings/couleurs";
+@import "settings/dimensions";
+@import "settings/fonts";
 
 
 
 // GENERIC
 // Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
-
+@import "generic/reset";
+@import "generic/normalize";
 
 
 // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
 
+@import "elements/body";
+@import "elements/heading";
+@import "elements/images";
+@import "elements/links";
+@import "elements/wrapper";
 
 
 // COMPONENTS
